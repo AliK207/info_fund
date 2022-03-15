@@ -16,3 +16,4 @@ DESC : 'descr';
 WS : [ \t\r\n]+ -> skip;
 ID : [a-z0-9]+;
 BOOL : 'true' | 'false';
+GATE : '&' | '|' | '!';
